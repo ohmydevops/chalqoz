@@ -1,6 +1,6 @@
 [![StyleCI](https://github.styleci.io/repos/314990451/shield?branch=main)](https://github.styleci.io/repos/314990451?branch=main) [![Latest Stable Version](https://poser.pugx.org/amirbagh75/chalqoz/v)](//packagist.org/packages/amirbagh75/chalqoz) [![Total Downloads](https://poser.pugx.org/amirbagh75/chalqoz/downloads)](//packagist.org/packages/amirbagh75/chalqoz) [![License](https://poser.pugx.org/amirbagh75/chalqoz/license)](//packagist.org/packages/amirbagh75/chalqoz)
 
-## Chalqoz
+## Chalqoz (چلغوز)
 
 This package only converts Persian and English number characters to each other.
 
