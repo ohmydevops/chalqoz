@@ -12,7 +12,7 @@ class Chalqoz
     public static $persianNumbers = ['۰', '۱', '۲', '۳', '۴', '٤', '۵', '٥', '٦', '۶', '۷', '۸', '۹'];
 
     /**
-     * @var int[]
+     * @var string[]
      */
     public static $englishNumbers = ['0', '1', '2', '3', '4', '4', '5', '5', '6', '6', '7', '8', '9'];
 
