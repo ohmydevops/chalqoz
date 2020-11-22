@@ -9,12 +9,12 @@ class Chalqoz
     /**
      * @var string[]
      */
-    static $persianNumbers = ['۰', '۱', '۲', '۳', '۴', '٤', '۵', '٥', '٦', '۶', '۷', '۸', '۹'];
+    public static $persianNumbers = ['۰', '۱', '۲', '۳', '۴', '٤', '۵', '٥', '٦', '۶', '۷', '۸', '۹'];
 
     /**
      * @var int[]
      */
-    static $englishNumbers = ['0', '1', '2', '3', '4', '4', '5', '5', '6', '6', '7', '8', '9'];
+    public static $englishNumbers = ['0', '1', '2', '3', '4', '4', '5', '5', '6', '6', '7', '8', '9'];
 
     /**
      * convert every persian number characters in input text to english number characters
@@ -35,7 +35,7 @@ class Chalqoz
      * @param string $text
      * @return string
      */
-    public static function convertEnglishNumbersToPersian(string $text):string
+    public static function convertEnglishNumbersToPersian(string $text): string
     {
         return str_replace(self::$englishNumbers, self::$persianNumbers, $text);
     }
