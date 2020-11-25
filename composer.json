@@ -1,23 +1,33 @@
 {
-  "name": "amirbagh75/chalqoz",
-  "type": "library",
-  "description": "Convert persian number to english number and vice versa",
-  "keywords": ["php", "persian-number", "english-number"],
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Amirhossein Baghaie",
-      "email": "amirbagh75@gmail.com",
-      "homepage": "https://amirbagh75.ir",
-      "role": "Developer"
+    "name": "amirbagh75/chalqoz",
+    "type": "library",
+    "description": "Convert persian number to english number and vice versa",
+    "keywords": [
+        "php",
+        "persian-number",
+        "english-number"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amirhossein Baghaie",
+            "email": "amirbagh75@gmail.com",
+            "homepage": "https://amirbagh75.ir",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "~7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amirbagh75\\Chalqoz\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "scripts": {
+        "test-php": "./vendor/bin/phpunit --colors --verbose tests/ChalqozTest.php"
     }
-  ],
-  "require": {
-    "php": "~7.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "Amirbagh75\\Chalqoz\\": "src"
-    }
-  }
 }
