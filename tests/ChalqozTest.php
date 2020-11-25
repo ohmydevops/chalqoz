@@ -8,7 +8,6 @@ use PHPUnit\Framework\TestCase;
 
 final class ChalqozTest extends TestCase
 {
-
     public function testConvertPersianNumbersToEnglish()
     {
         $this->assertEquals(
