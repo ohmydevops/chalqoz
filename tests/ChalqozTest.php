@@ -16,6 +16,11 @@ final class ChalqozTest extends TestCase
         );
 
         $this->assertEquals(
+            'امیرحسین 24 سال دارد.',
+            Chalqoz::faNumsToEn('امیرحسین ۲۴ سال دارد.')
+        );
+
+        $this->assertEquals(
             '123456789',
             Chalqoz::convertPersianNumbersToEnglish('۱۲۳۴۵۶۷۸۹')
         );
@@ -26,6 +31,11 @@ final class ChalqozTest extends TestCase
         $this->assertEquals(
             'امیرحسین ۲۴ سال دارد.',
             Chalqoz::convertEnglishNumbersToPersian('امیرحسین 24 سال دارد.')
+        );
+
+        $this->assertEquals(
+            'امیرحسین ۲۴ سال دارد.',
+            Chalqoz::enNumsToFa('امیرحسین 24 سال دارد.')
         );
 
         $this->assertEquals(
