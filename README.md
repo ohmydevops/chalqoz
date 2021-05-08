@@ -36,4 +36,9 @@ echo($newText."\n"); // امیرحسین بقایی ۲۴ سال دارد
 ```php
 convertEnglishNumbersToPersian(string $text): string
 convertPersianNumbersToEnglish(string $text): string
+
+// Shortened version of functions names:
+
+enNumsToFa(string $text): string
+faNumsToEn(string $text): string
 ```
