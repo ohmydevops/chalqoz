@@ -1,4 +1,4 @@
-[![StyleCI](https://github.styleci.io/repos/314990451/shield?branch=main)](https://github.styleci.io/repos/314990451?branch=main) [![Latest Stable Version](https://poser.pugx.org/amirbagh75/chalqoz/v)](//packagist.org/packages/amirbagh75/chalqoz) [![Total Downloads](https://poser.pugx.org/amirbagh75/chalqoz/downloads)](//packagist.org/packages/amirbagh75/chalqoz) [![License](https://poser.pugx.org/amirbagh75/chalqoz/license)](//packagist.org/packages/amirbagh75/chalqoz)
+[![unit-tests](https://github.com/ohmydevops/chalqoz/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/ohmydevops/chalqoz/actions/workflows/test.yml) [![StyleCI](https://github.styleci.io/repos/314990451/shield?branch=main)](https://github.styleci.io/repos/314990451?branch=main) [![Latest Stable Version](https://poser.pugx.org/amirbagh75/chalqoz/v)](//packagist.org/packages/amirbagh75/chalqoz) [![Total Downloads](https://poser.pugx.org/amirbagh75/chalqoz/downloads)](//packagist.org/packages/amirbagh75/chalqoz) [![License](https://poser.pugx.org/amirbagh75/chalqoz/license)](//packagist.org/packages/amirbagh75/chalqoz)
 
 ## Chalqoz (چلغوز)
 
