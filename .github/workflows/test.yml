@@ -1,23 +1,26 @@
-name: tests
+name: unit-tests
 
 on:
     push:
     pull_request:
 
 jobs:
-    tests:
-        name: run all unit tests
+    unit-tests:
         runs-on: ubuntu-latest
+        strategy:
+          matrix:
+            php-versions: ['7.0', '7.1', '7.2', '7.3', '7.4', '8.0']
+        name: PHP ${{ matrix.php-versions }} Unit-test
         steps:
             -   name: Checkout code
                 uses: actions/checkout@v2
-
+                
             -   name: Setup PHP
                 uses: shivammathur/setup-php@v2
                 with:
-                    php-version: 7.4
+                    php-version: ${{ matrix.php-versions }}
 
             -   name: Install dependencies
-                run: composer update
+                run: composer install --no-progress --optimize-autoloader --quiet
             -   name: Execute tests
                 run: composer test
