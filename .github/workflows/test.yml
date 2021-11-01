@@ -21,6 +21,6 @@ jobs:
                     php-version: ${{ matrix.php-versions }}
 
             -   name: Install dependencies
-                run: composer install --no-progress --optimize-autoloader --quiet
+                run: composer install --optimize-autoloader
             -   name: Execute tests
                 run: composer test
