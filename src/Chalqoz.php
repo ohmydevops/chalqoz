@@ -9,7 +9,7 @@ class Chalqoz
     /**
      * @var string[]
      */
-    private static $persianNumbers = ['۰', '۱', '١', '۲', '٢', '۳', '٣', '۴', '٤', '۵', '٥', '٦', '۶', '۷', '٧', '۸', '٨', '۹', '٩'];
+    private static $persianNumbers = ['۰', '٠', '۱', '١', '۲', '٢', '۳', '٣', '۴', '٤', '۵', '٥', '٦', '۶', '۷', '٧', '۸', '٨', '۹', '٩'];
 
     /**
      * @var string[]
